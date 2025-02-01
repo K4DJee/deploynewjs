@@ -8,6 +8,18 @@
     ],
     "routes": [
       {
+        "src": "/register",
+        "dest": "/register" 
+      },
+      {
+        "src": "/login",
+        "dest": "/login" 
+      },
+      {
+        "src": "/admin-panel",
+        "dest": "/admin-panel" 
+      },
+      {
         "src": "/(.*)",
         "dest": "/" 
       }
